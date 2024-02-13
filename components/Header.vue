@@ -19,8 +19,11 @@
       <nuxt-link class="font-medium text-lg text-dark-900/50 dark:text-gray-50/80 hover:text-dark-900"  to="/">
         Home
       </nuxt-link>
-      <nuxt-link class="font-medium text-lg text-dark-900/50 dark:text-gray-50/80 hover:text-dark-900" to="/">
+      <nuxt-link class="font-medium text-lg text-dark-900/50 dark:text-gray-50/80 hover:text-dark-900" to="/about">
         About
+      </nuxt-link>
+      <nuxt-link class="font-medium text-lg text-dark-900/50 dark:text-gray-50/80 hover:text-dark-900" to="/auth/login">
+        Login
       </nuxt-link>
       <swith-mode/>
     </nav>
